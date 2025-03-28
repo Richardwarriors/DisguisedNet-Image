@@ -26,5 +26,4 @@ For RMT-AES:
       self.encoder = RMT(image_size=(image_temp.shape[0] + pad_row, image_temp.shape[1] + pad_col,image_temp.shape[2]),
                          block_size=int(self.block_size_dropdown.currentText()),
                          Shuffle=True)
-  ```# DisguisedNet-image
-# DisguisedNet-image
+  ```
